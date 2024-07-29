@@ -1,0 +1,331 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* desktop views of section one */
+div.services{
+    margin: auto;
+    max-width: 1066px;
+    min-height: 373px;
+    font-size: 0.5em;
+}
+.services .l1 div{
+    display: inline-block;
+
+}
+.services .a{
+    width: 516px;
+    height: 177px;
+    font-size: 1em;
+
+}
+.services .b{
+    margin-left: 50px;
+    width: 483px;
+    height: 178px;
+    font-size: 1em;
+}
+.services .c{
+    margin: auto;
+    max-width: 487px;
+    min-height: 182px;
+    margin-top: 14px;
+    font-size: 1em;
+
+}
+.services .a h2{
+    max-width: 277px;
+    min-height: 74px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 26.82px;
+    letter-spacing: 0.1854em;
+    text-align: center;
+
+}
+.services a p{
+    max-width: 431px;
+    min-height: 104px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 19.07px;
+    text-align: justify;
+
+}
+.services. b h2{
+    max-width: 277px;
+    min-height: 74px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 26.82px;
+    letter-spacing: 0.1854px;
+    text-align: center;
+}
+.services .b p{
+    max-width: 431px;
+    min-height: 104px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 19.07px;
+    text-align: justify;
+
+}
+.services .c h2{
+    max-width: 277px;
+    min-height: 74px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 26.82px;
+    letter-spacing: 0.1854em;
+    text-align: center;
+
+}
+.services .c p{
+    max-width: 422px;
+    min-height: 104px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 19.07px;
+    text-align: justify;
+}
+.first{
+    margin: auto;
+    margin-top: 80px;
+    max-width: 170px;
+    min-height: 12px;
+
+}
+/* section 1 mobile view */
+@media screen and (max-width:928px) {
+    .services .b{
+margin-left: unset;
+width: 483px;
+height: 178px;
+
+ }
+ .services .c{
+    margin: unset;
+    max-width: 487px;
+    min-height: 182px;
+    margin-top: unset;
+
+ }
+ /* desktop view of section 2 */
+ .usingnow{
+    font-size: 0.5em;
+    max-width: 1004px;
+    min-height: 1413px;
+margin: auto;
+ }
+ .usingnow .second{
+    font-size: 3em;
+
+ }
+ .skills header{
+    border: 8px solid black;
+    margin: auto;
+    max-width: 404px;
+    min-height: 74px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 38.37px;
+    letter-spacing: 0.3554em;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 17px;
+
+ }
+ .usingnow .third{
+    font-size: 3em;
+
+ }
+ .usingnow .e{
+    max-width: 261px;
+    min-height: 74px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    letter-spacing: 0.3554em;
+    text-align: left;
+    margin-top: 79px;
+
+ }
+ .usingnow .line1{
+    font-size: 3em;
+
+ }
+ .usingnow .line2{
+    font-size: 3em;
+
+ }
+ .usingnow .fourth div{
+    display: inline-block;
+    margin-top: 75px;
+    margin-bottom: 65px;
+
+ }
+ .usingnow .fifth div{
+    display:inline-block;
+    font-size: 1em;
+    margin-bottom: 36px;
+
+ }
+ .easy .image html p{
+    max-width: 84.21px;
+min-height: 100px;
+margin-right: 156.78px;
+}
+.easy .image .html p{
+    max-width: 166px;
+    min-height: 52px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+    margin-right: 75px;
+    margin-left: -30px;
+    margin-top: 150.82px;
+
+}
+.easy .image .css {
+    max-width: 166px;
+    min-height: 52px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+    margin-right: 90px;
+    margin-left: -40px;
+    margin-top: 17px;
+
+}
+.easy .image .sass img{
+    max-width: 126.62px;
+    min-height: 99.93px;
+    margin-right: 144.41px;
+
+}
+.easy .image .sass p{
+    max-width: 166px;
+    min-height: 52px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+    margin-right: 62px;
+    margin-top: 17px;
+
+}
+.easy .image .java img{
+    max-width: 96.24px;
+    min-height: 100px;
+
+}
+.easy .image .java p{
+    max-width: 240px;
+    min-height: 52px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.24px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 17px;
+
+}
+.hard .images .bootstrap img{
+    max-width: 105.8px;
+    max-height: 99.46px;
+    margin-right: 140.2px;
+
+}
+.hard .images .boot p{
+    max-width: 240px;
+    max-height: 53px;
+    font-family: "Montserrat",sans-serif;
+    margin-right: 2px;
+    margin-left: -50px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+
+}
+.hard .images .git img{
+    max-width: 96.24px;
+    min-height: 100px;
+    margin-right: 177.76px;
+
+}
+.hard .images .git{
+    max-width: 240px;
+    min-height: 52px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: -68px;
+}
+.hard .images .figma p{
+    max-width: 240px;
+    min-height: 52px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+}
+/* section two mobile view */
+@media  and (max-width:928px) {
+.skills header{
+border: 8px solid black;
+margin: unset;
+margin-top: 16px;
+margin-bottom: 17px;
+}
+    .usingnow .e{
+        margin: unset;
+        margin-top: 47px;
+
+    }
+    .usingnow .fourth div{
+        display: inline;
+        margin: unset;
+
+    }
+    .usingnow .fifth div{
+        margin: unset;
+        display: inline;
+    }
+    .easy .image.sass p{
+margin: unset;
+
+    }.easy .image.java p{
+        display: block;
+        font-size: 1em;
+    }
+}
+    
+}
